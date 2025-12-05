@@ -20,7 +20,7 @@ import django from '../app/assets/svg/skills/django.svg';
 import docker from '../app/assets/svg/skills/docker.svg';
 import fastify from '../app/assets/svg/skills/fastify.svg';
 import figma from '../app/assets/svg/skills/figma.svg';
-import firebase from '../app/assets/svg/skills/firebase.svg';
+
 import flutter from '../app/assets/svg/skills/flutter.svg';
 import gcp from '../app/assets/svg/skills/gcp.svg';
 import gimp from '../app/assets/svg/skills/gimp.svg';
@@ -82,12 +82,43 @@ import kubernetes from '../app/assets/svg/skills/kubernetes.svg'
 import linux from '../app/assets/svg/skills/linux.svg'
 import sqlalchemy from '../app/assets/svg/skills/sqlalchemy.svg'
 import fastapi from '../app/assets/svg/skills/fastapi.svg'
+import Arduino from '../app/assets/svg/skills/Arduino.png';
+import Dart from  '../app/assets/svg/skills/Dart_logo.png';  
+import EmbeddedC from '../app/assets/svg/skills/EmbeddedC.png';
+import fritzing from  '../app/assets/svg/skills/fritzing.png';
+import keil from  '../app/assets/svg/skills/kelluvision.png';
+import proteus from  '../app/assets/svg/skills/proteus.png';
+import VSCode from  '../app/assets/svg/skills/vscode.png';
+import LTspice from  '../app/assets/svg/skills/ltspice.jpeg';
+import nodemcu from  '../app/assets/svg/skills/nodemcu.png';
+import firebase from '../app/assets/svg/skills/firebase.png';
+
 
 
 
 export const skillsImage = (skill) => {
   const skillID = skill.toLowerCase();
   switch (skillID) {
+    case 'firebase ': 
+      return firebase;
+    case 'arduino':
+      return Arduino;
+    case 'dart':
+      return Dart;
+    case 'embedded c':
+      return EmbeddedC;
+    case 'fritzing':
+      return fritzing;
+    case 'keil uvision':
+      return keil;
+    case 'proteus':
+      return proteus;
+    case 'vs code':
+      return VSCode;
+    case 'ltspice':
+      return LTspice;
+    case 'nodemcu':
+      return nodemcu;
     case 'gcp':
       return gcp;
     case 'html':

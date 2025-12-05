@@ -1,12 +1,12 @@
 export const contactsData = {
-    email: 'hariprasadstakle1@gmail.com',
-    phone: '+91 8329958162',
+    email: 'rampedgaonkar17605@gmail.com',
+    phone: '+91 9359055141',
     address: 'Pune, Maharashtra, India',
-    github: 'https://github.com/thebugger66',
+    github: 'https://github.com/',
    
-    linkedIn: 'https://www.linkedin.com/in/hari-takle-3a5724289/',
-    twitter: 'https://x.com/TakleHari9791',
+    linkedIn: 'https://www.linkedin.com/in/bhargavram-pedgaonkar-7864b1292',
+    twitter: 'https://x.com/',
    
 
-    devUsername: "thebugger66"
+    devUsername: "bhargavram17605"
 }

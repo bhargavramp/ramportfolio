@@ -9,8 +9,8 @@ function Navbar() {
         <div className="flex flex-shrink-0 items-center">
           <Link
             href="/"
-            className=" text-[#16f2b3] text-3xl font-bold">
-            Hariprasad Takle
+            className=" text-[#16f2b3] text-4xl font-bold">
+            Bhargavram Pedgaonkar
           </Link>
         </div>
 
