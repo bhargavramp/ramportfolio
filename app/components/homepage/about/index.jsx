@@ -68,7 +68,7 @@ function AboutSection() {
             src={personalData.profile}
             width={400}
             height={400}
-            alt="Hariprasad Takle"
+            alt="Bhargavram pedgaonkar"
             className="rounded-2xl shadow-lg object-cover
               transition-all duration-700 
               grayscale hover:grayscale-0 hover:scale-105 

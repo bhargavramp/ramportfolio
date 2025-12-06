@@ -84,7 +84,7 @@ import sqlalchemy from '../app/assets/svg/skills/sqlalchemy.svg'
 import fastapi from '../app/assets/svg/skills/fastapi.svg'
 import Arduino from '../app/assets/svg/skills/Arduino.png';
 import Dart from  '../app/assets/svg/skills/Dart_logo.png';  
-import EmbeddedC from '../app/assets/svg/skills/EmbeddedC.png';
+import EmbeddedC from '../app/assets/svg/skills/embeddedC.png';
 import fritzing from  '../app/assets/svg/skills/fritzing.png';
 import keil from  '../app/assets/svg/skills/kelluvision.png';
 import proteus from  '../app/assets/svg/skills/proteus.png';
